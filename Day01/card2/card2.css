@@ -1,0 +1,15 @@
+.continer{
+    display: flex;
+}
+.box {
+  width: 100px;
+  text-align: center;
+  margin-right: 50px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 9999px;
+  border: 2px solid rgb(218, 50, 31);
+  padding: 2px;
