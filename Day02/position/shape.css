@@ -1,0 +1,18 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+.z1 {
+  position: relative;
+  z-index: 1;
+}
+.z2 {
+  position: relative;
+  z-index: 2;
+  bottom: 50px;
+}
+.z3 {
+  position: relative;
+  z-index: 3;
+  bottom: 100px;
+}
