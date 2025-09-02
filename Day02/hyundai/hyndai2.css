@@ -1,0 +1,68 @@
+.car {
+  background-color: #e6e6e6;
+  width: 350px;
+  padding: 40px;
+  position: relative;
+}
+.car > h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.car > .photo {
+  width: 100%;
+  height: 150px;
+}
+.car > .photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #999999;
+}
+.info > .option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info > .option > .title {
+  font-weight: 700px;
+}
+.info > .option > .value {
+  font-weight: 700px;
+  color: #7f7f7f;
+}
+.interaction {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.car > .interaction > .make {
+  color: white;
+  font-weight: 700px;
+  background-color: #002c5f;
+  border: none;
+  padding: 14px 26px 14px 26px;
+  cursor: pointer;
+  word-wrap: 150px;
+}
+.car > .interaction > .navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background-color: #007fa8;
+}
