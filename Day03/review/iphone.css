@@ -1,0 +1,39 @@
+.container {
+  width: 1400px;
+  height: 600px;
+  border: 1px solid red;
+  padding: 25px 50px 0px 50px;
+  display: flex;
+  flex-direction: row;
+}
+h4 {
+  margin-bottom: 100px;
+}
+.box {
+  text-align: center;
+}
+.card {
+  position: relative;
+}
+.text {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.head {
+  font-size: 40px;
+  font-weight: bold;
+}
+.inside {
+  margin-bottom: 20px;
+}
+.circle {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+}
+.card {
+  transition: all 1s;
+}
+.card:hover {
+  transform: scale(1.2);
+}

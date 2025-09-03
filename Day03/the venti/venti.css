@@ -1,0 +1,65 @@
+.container {
+  width: 1050px;
+  height: 1200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.new {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+.new > div {
+  width: 60px;
+  height: 60px;
+  background-color: #e98004;
+  border-radius: 999px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+.card:hover {
+  border: 5px solid rgb(255, 91, 40);
+}
+.card {
+  width: 250px;
+  height: 380px;
+  border: 1px solid rgb(202, 202, 202);
+}
+.green:hover {
+  transform: scale(1.05);
+}
+.green {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.mini {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #006db0;
+  border-radius: 999px;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

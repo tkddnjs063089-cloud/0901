@@ -1,0 +1,33 @@
+.button {
+  width: 600px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.button > span {
+  font-weight: 700px;
+  transition: all 0.3s;
+  z-index: 2;
+}
+.button:hover > span {
+  color: white;
+}
+.screen {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0, -40px);
+  transition: all 0.3s;
+}
+.button:hover > .screen {
+  transform: translate(0, 0);
+}

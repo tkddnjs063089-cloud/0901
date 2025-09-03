@@ -1,0 +1,26 @@
+.container {
+  width: 1000px;
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(56, 181, 223);
+  border-radius: 999px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  border: none;
+}
+.box > i {
+  color: yellow;
+}
+.box:hover {
+  background-color: blue;
+}
