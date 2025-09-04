@@ -1,0 +1,104 @@
+section {
+  /* 행렬 <= 엑셀판, 바둑판, 체스판*/
+  /* 자식들을 엑셀판, 바둑판화 하기*/
+  display: grid;
+  /* repeat(몇줄, 1fr*/
+  grid-template-columns: repeat(5, 1fr);
+  height: 100vh;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover > .copy {
+  opacity: 1;
+}
+.copy {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+button {
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: white;
+  font-size: 28px;
+  padding: 5px 20px;
+}
+.text {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.a {
+  background-color: #ff9ff3;
+}
+.b {
+  background-color: #feca57;
+}
+.c {
+  background-color: #ff6b6b;
+}
+.d {
+  background-color: #48dbfb;
+}
+.e {
+  background-color: #1dd1a1;
+}
+.f {
+  background-color: #f368e0;
+}
+.g {
+  background-color: #ff9f43;
+}
+.h {
+  background-color: #ee5253;
+}
+.i {
+  background-color: #0abde3;
+}
+.j {
+  background-color: #10ac84;
+}
+.k {
+  background-color: #00d2d3;
+}
+.l {
+  background-color: #54a0ff;
+}
+.m {
+  background-color: #5f27cd;
+}
+.n {
+  background-color: #c8d6e5;
+}
+.o {
+  background-color: #576574;
+}
+.p {
+  background-color: #01a3a4;
+}
+.q {
+  background-color: #2e86de;
+}
+.r {
+  background-color: #341f97;
+}
+.s {
+  background-color: #8395a7;
+}
+.t {
+  background-color: #222f3e;
+}

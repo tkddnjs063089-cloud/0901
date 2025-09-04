@@ -1,0 +1,38 @@
+section {
+  padding: 100px;
+}
+.button {
+  width: 600px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.button > div {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: translate(0px, -70px);
+  transition: all 0.5s;
+}
+.button:hover > div {
+  transform: translate(0px, 0px);
+}
+.show {
+  border: none;
+  color: black;
+  background-color: white;
+  font-size: 25px;
+  font-weight: 100;
+  transition: all 0.5s;
+}
+.button:hover > .show {
+  position: relative;
+  z-index: 1;
+  color: white;
+}

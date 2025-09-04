@@ -1,0 +1,49 @@
+header {
+  background-color: rgb(255, 255, 255);
+}
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: c;
+  align-items: center;
+  padding: 20px;
+}
+picture {
+  margin-right: 400px;
+  display: flex;
+}
+.big {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  height: 100%;
+  padding: 10px;
+  border-radius: 9999px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+.text:hover {
+  background-color: #eee;
+}
+.red {
+  color: #ff5160;
+}
+.q {
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.q > span {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
